@@ -1,7 +1,7 @@
 import {createSlice} from "@reduxjs/toolkit";
 
-export const EventSlice = createSlice({
-    name: 'event',
+export const NasaSlice = createSlice({
+    name: 'nasa',
     initialState: {
         events: [{name: 'andrei'}]
     },
@@ -17,5 +17,5 @@ export const EventSlice = createSlice({
 
 export const {
     addEvent,
-    setEvents } = EventSlice.actions;
-export default EventSlice.reducer;
+    setEvents } = NasaSlice.actions;
+export default NasaSlice.reducer;
